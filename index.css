@@ -8,6 +8,7 @@
 
 body{
     position: relative;
+    overflow-y: hidden;
 }
 
 .about-us{
@@ -44,6 +45,7 @@ body{
 .about-us__content{
     margin-top: 55px;
     display: none;
+    overflow-y: hidden;
 }
 
 .about-us__content.desktop{
@@ -151,7 +153,6 @@ body{
         display: none;
     }   
     .about-us{
-        /* position: relative; */
         overflow-y: hidden !important
     }    
     .item-text p{
